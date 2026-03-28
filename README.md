@@ -13,28 +13,10 @@ Claude Code で使える汎用スキル集。
 
 [`skills` CLI](https://www.npmjs.com/package/skills) を使ってインストールできます。
 
-### すべてのスキルをインストール
+### インタラクティブにインストール
 
 ```bash
-npx skills add p1ass/skills --all
-```
-
-### 特定のスキルのみインストール
-
-```bash
-# japanese-technical-writing のみ
-npx skills add p1ass/skills -s japanese-technical-writing
-
-# test-principles のみ
-npx skills add p1ass/skills -s test-principles
-```
-
-### グローバルインストール
-
-プロジェクト単位ではなくユーザーレベルでインストールする場合は `-g` フラグを付けます。
-
-```bash
-npx skills add p1ass/skills --all -g
+npx skills add p1ass/skills
 ```
 
 ## ライセンス
