@@ -24,6 +24,8 @@ pnpm lint:text:fix  # 自動修正
 対象は `skills/**/SKILL.md` と `skills/**/agents/*.md`。
 `skills/japanese-technical-writing/docs/` は原典の写しのため対象外とする。
 
+Pull Request と main への push で GitHub Actions が同じチェックを実行する。
+
 ## インストール
 
 [`skills` CLI](https://www.npmjs.com/package/skills) を使ってインストールできます。
