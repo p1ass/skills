@@ -1,0 +1,18 @@
+{
+  "name": "skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint:text": "textlint \"skills/**/SKILL.md\" \"skills/**/agents/*.md\"",
+    "lint:text:fix": "textlint --fix \"skills/**/SKILL.md\" \"skills/**/agents/*.md\""
+  },
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.7.0",
+    "@textlint/textlint-plugin-markdown": "^15.8.0",
+    "textlint": "^15.8.0",
+    "textlint-filter-rule-comments": "^1.3.0",
+    "textlint-rule-preset-ja-spacing": "^3.0.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
+  },
+  "packageManager": "pnpm@10.8.0"
+}
